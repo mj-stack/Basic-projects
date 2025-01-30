@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    Rock paper scissors
+  </header>
+
+  <div class="game-section">    
+    <section class="game-center">
+      <div class="game-center-button">
+        <button onclick="playGame('rock')">Rock</button>
+        <button onclick="playGame('paper')">Paper</button>
+        <button onclick="playGame('scissors')">Scissors</button>
+      </div>
+      <div class="game-play playGame">&#8593;Play game&#8593;</div>
+    </section>
+    <section class="score-center">
+      <div class="score-card">
+        <div class="score-title">
+          <span>Score</span>
+        </div>
+        <div class="score-data">
+          <div class="score-data-info">
+            <div class="score-data-name">
+              <div>Wins</div>
+              <div>Losses</div>
+              <div style="border-bottom: 1px solid black;">Ties</div>
+              <div>Total Games</div>
+            </div>
+            <div class="score-data-number">
+              <div>0</div>
+              <div>0</div>
+              <div style="border-bottom: 1px solid black;">0</div>
+              <div>0</div>
+            </div>
+          </div>
+          <div>
+            <button class="score-reset">Reset score</button>
+          </div>  
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

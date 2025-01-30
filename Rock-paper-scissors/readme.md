@@ -1,0 +1,1 @@
+This is a basic rock-paper-scissors game build wiith HTML CSS and JS. This is not responsive yet.

@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#08AEEA, #B5FFFC, #08AEEA, #B5FFFC, #08AEEA);
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.game-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.game-center {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-center-button {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(#C850C0, #0093E9, #C850C0) ;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 0 rgba(red, green, blue, alpha);
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+.game-play {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.score-center {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-card {
+  background: linear-gradient(#6284FF, #FF0000, #FFFB7D, #6284FF);
+  height: 450px;
+  width: 400px;
+}
+
+.score-title {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.score-title span {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border-bottom: 2px dashed black;
+}
+
+.score-data {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-data-info {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-data-name {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-data-name div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.score-data-number {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-data-number div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.score-reset {
+  flex: 1;
+}
