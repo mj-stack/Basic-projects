@@ -1,0 +1,31 @@
+.header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 200;
+  background-color: white;
+}
+
+.title {
+  position: relative;
+}
+
+.title::before {
+  content: "";
+  border-radius: 5px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: -30px;
+  height: 100%;
+  width: 100%;
+}

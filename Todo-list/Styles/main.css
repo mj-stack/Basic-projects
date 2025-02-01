@@ -1,0 +1,133 @@
+.main-todo-area {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.todo-quote {
+  height: 150px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Smooch Sans", serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.todo-list-section {
+  background-color: lightgreen;
+  border-radius: 10px;
+  width: 350px;
+  min-height: 350px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.todo-input-div {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.todo-input {
+  width: 200px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  background-color: white;
+  font-size: 16px;
+}
+
+.todo-input::placeholder {
+  color: gray;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.add-todo-button {
+  height: 37px;
+  width: 60px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: green;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.add-todo-button:hover {
+  opacity: 0.8;
+}
+
+.todo-list-grid {
+  height: auto;
+  width: 300px;
+  /* padding: 10px; */
+
+  display: grid;
+  grid-template-columns: 285px;
+  row-gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.todo-task {
+  background-color: rgb(242, 93, 255);
+  border-radius: 5px;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.todo-task-name-div {
+  height: 100%;
+  width: 220px;
+  display: flex;
+  align-items: center;
+}
+
+.todo-task-name {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.todo-done-button-div {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-done-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(255, 48, 48);
+  color: white;
+}
