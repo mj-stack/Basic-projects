@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  border-bottom: 1px solid rgb(211, 211, 211);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+}
+
+.game-play-section {
+  height: 537px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-img-div {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-img {
+  height: 150px;
+}
+
+.game-button-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.game-button {
+  border: none;
+  background-color: rgb(189, 189, 189);
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.game-button:hover {
+  opacity: 0.9;
+}
+
+.game-button:active {
+  opacity: 0.8;
+}
+
+.game-history-section {
+  height: 537px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-history-div {
+  background-color: black;
+  border-radius: 10px;
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-history-title {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-text {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.game-history-details {
+  border-top: 1px solid white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.game-history-details-forCSS {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+
+.roll-attempt {
+  border: 2px solid white;
+  border-radius: 4px;
+  min-height: 50px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.roll-attempt-img-div {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+}
+
+.roll-attempt-text {
+  height: 40px;
+  width: 200px;
+  border-radius: 4px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.roll-attempt-number {
+  height: 40px;
+  width: 60px;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roll-attempt-number span {
+  font-size: 12px;
+  font-weight: bold;
+}
