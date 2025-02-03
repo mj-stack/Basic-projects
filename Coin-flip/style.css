@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.header {
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.main {
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-img-div {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  background-color: black;
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.coin-img {
+  margin-bottom: 8px;
+}
+
+.toss-button {
+  height: 40px;
+  width: 100px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.toss-button:hover {
+  background-color: rgb(27, 27, 27);
+}
+
+.toss-button:active {
+  background-color: rgb(53, 53, 53);
+}
