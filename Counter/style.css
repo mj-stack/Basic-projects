@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  font-family: Arial;
+  font-size: 10em;
+}
+
+button {
+  padding: 8px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: lightblue;
+}
+
+button:hover {
+  background-color: rgb(108, 218, 255);
+}
+
+button:active {
+  background-color: rgb(59, 206, 255);
+}
