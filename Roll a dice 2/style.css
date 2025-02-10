@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Arial;
+}
+
+.numberInputText {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#numberInput {
+  text-align: center;
+  width: 100px;
+  font-size: 18px;
+  outline: none;
+}
+
+.rollButton {
+  padding: 8px 10px;
+  background-color: hsl(216, 100%, 50%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rollButton:hover {
+  background-color: hsl(216, 100%, 45%);
+}
+
+.rollButton:active {
+  background-color: hsl(216, 100%, 40%);
+}
+
+.diceCounts {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.diceFace {
+  height: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
