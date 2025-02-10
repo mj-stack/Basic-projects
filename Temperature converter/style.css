@@ -1,0 +1,55 @@
+body {
+  background-color: hsl(0, 0%, 70%);
+  text-align: center;
+  font-family: Arial;
+}
+
+.main-section {
+  background-color: white;
+  min-height: 250px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.title {
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+#numberInput {
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  outline: none;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 18px;
+}
+
+button {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background-color: hsl(0, 100%, 60%);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(0, 79%, 54%);
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+}
