@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: url('pexels-chris-schippers-139261-421927.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.clock-numbers {
+  color: black;
+  font-size: 6.5em;
+  font-family: monospace;
+  margin-top: 60px;
+}
