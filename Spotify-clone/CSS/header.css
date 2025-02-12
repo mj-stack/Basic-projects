@@ -1,0 +1,76 @@
+.header {
+  border: 1px solid white;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-section {
+  color: white;
+  border: 1px solid white;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-section {
+  color: white;
+  border: 1px solid white;
+  width: 550px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.spotify-home {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: rgb(70, 70, 70);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spotify-home-img {
+  height: 30px;
+  border-radius: 100px;
+}
+
+.search-input {
+  width: 480px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(70, 70, 70);
+}
+
+.search-input::placeholder {
+  color: rgb(187, 187, 187);
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 35px;
+}
+
+.right-section {
+  color: white;
+  border: 1px solid white;
+  width: 250px;
+}
+
+.logo-container {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container image {
+  background: transparent;
+}
