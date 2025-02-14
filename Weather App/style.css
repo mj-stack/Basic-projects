@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+}
+
+.weather-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.city-input {
+  height: 25px;
+  font-family: Arial;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 8px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid hsla(0, 0%, 0%, 0.2);
+}
+
+.submit-btn {
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+  background-color: hsl(120, 100%, 30%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.weather-card {
+  /* height: 280px; */
+  padding: 20px;
+  min-width: 220px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, hsl(240, 100%, 70%), hsl(39, 100%, 70%));
+}
+
+.city-name {
+  margin: 10px;
+  color: hsla(0, 0%, 0%, 0.7);
+}
+
+.city-temp {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.7);
+}
+
+.city-humidity {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 12px 0;
+}
+
+.climate-description {
+  margin: 0;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.climate-emoji {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.city-error {
+  margin: 0;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.7);
+}
